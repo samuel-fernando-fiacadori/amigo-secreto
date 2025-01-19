@@ -32,6 +32,12 @@ for (let i = 0; i < array_amigo_adicionado.length; i++) {
 
 function reiniciar() {
  // resetar tudo o que foi feito
+ array_amigo_adicionado = [];
+ let lista_sorteio = document.getElementById("lista-sorteio");
+ let lista_amigo = document.getElementById("lista-amigos");
+
+ lista_amigo.textContent = ""
+ lista_sorteio.innerHTML = ""
 }
 
 function shuffle(array) {
