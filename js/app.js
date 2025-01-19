@@ -22,9 +22,9 @@ function sortear() {
 
 for (let i = 0; i < array_amigo_adicionado.length; i++) {
     if (i == array_amigo_adicionado.length - 1) {
-        lista_sorteio.innerHTML = lista_sorteio.innerHTML + array_amigo_adicionado[i] + " --> " + array_amigo_adicionado[0] + "<br>"
+        lista_sorteio.innerHTML = lista_sorteio.innerHTML + array_amigo_adicionado[i] + " --> " + array_amigo_adicionado[0] + "<br>";
     } else {
-        lista_sorteio.innerHTML = lista_sorteio.innerHTML + array_amigo_adicionado[i] + " --> " + array_amigo_adicionado[i + 1] + "<br>"
+        lista_sorteio.innerHTML = lista_sorteio.innerHTML + array_amigo_adicionado[i] + " --> " + array_amigo_adicionado[i + 1] + "<br>";
     }
 
 }
@@ -36,8 +36,8 @@ function reiniciar() {
  let lista_sorteio = document.getElementById("lista-sorteio");
  let lista_amigo = document.getElementById("lista-amigos");
 
- lista_amigo.textContent = ""
- lista_sorteio.innerHTML = ""
+ lista_amigo.textContent = "";
+ lista_sorteio.innerHTML = "";
 }
 
 function shuffle(array) {
